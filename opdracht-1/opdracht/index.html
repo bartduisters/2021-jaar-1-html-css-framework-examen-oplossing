@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdracht 1</title>
+
+    <link rel="stylesheet" href="../../bootstrap/bootstrap-5-0-1.css" />
+    <script defer src="../../bootstrap/bootstrap-5-0-1.js"></script>
+
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Opdracht 1</h1>
+
+        <input type="text" name="item-input" id="item-input" placeholder="Nieuw item" />
+
+        <button type="button" onclick="itemToevoegen()">Toevoegen</button>
+
+        <button type="button" onclick="itemVerwijderen()">Verwijder laatste item</button>
+
+        <ul id="lijst">
+          <li>Een item</li>
+          <li>Nog een item</li>
+          <li>Nog een ander item</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
